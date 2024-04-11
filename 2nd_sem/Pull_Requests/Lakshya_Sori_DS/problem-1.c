@@ -9,7 +9,7 @@ int main() {
         printf(" enter a integer.\n");
         return 1;
     }
-    printf("Sequence for i = %d:\n", i);
+    printf("Seq for i = %d:\n", i);
     algorithm(i);
     return 0;
 }
