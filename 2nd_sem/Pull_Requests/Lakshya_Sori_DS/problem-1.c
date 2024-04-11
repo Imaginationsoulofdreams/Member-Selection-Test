@@ -6,11 +6,11 @@ int main() {
     printf("Enter positive integer: ");
     scanf("%d", &i);
     if (i <= 0) {
-        printf(" enter a positive integer.\n");
+        printf(" enter a integer.\n");
         return 1;
     }
     printf("Sequence for i = %d:\n", i);
-    simulateAlgorithm(i);
+    algorithm(i);
     return 0;
 }
 void algorithm(int i) {
